@@ -15,20 +15,7 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/40 to-foreground/80" />
         </div>
         
-        <div className="relative z-10 text-center px-4 py-16">
-          <h1 className="font-script text-5xl md:text-7xl text-primary-foreground mb-2 animate-fade-in">
-            Festival
-          </h1>
-          <p className="text-xl md:text-2xl text-primary-foreground/90 font-light mb-2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Water • Wood • Wisdom
-          </p>
-          <p className="text-lg text-primary-foreground/80 mb-4 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            The World Within You
-          </p>
-          <div className="inline-block px-6 py-2 bg-primary rounded-lg text-primary-foreground font-semibold animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            26 Jan to 28 Feb, 2026
-          </div>
-        </div>
+       
       </section>
 
       {/* Action Tiles - Positioned below hero, above Experience section */}
